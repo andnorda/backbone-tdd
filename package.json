@@ -1,0 +1,19 @@
+{
+  "name": "backbone-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andnorda/backbone-tdd.git"
+  },
+  "author": "Andreas Nordahl <andnorda@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andnorda/backbone-tdd/issues"
+  },
+  "homepage": "https://github.com/andnorda/backbone-tdd"
+}
