@@ -1,6 +1,6 @@
 module.exports = function(config) {
     config.set({
-        frameworks: ['jasmine', 'browserify'],
+        frameworks: ['jasmine', 'browserify', 'sinon'],
         files: [
             '*.spec.js'
         ],
