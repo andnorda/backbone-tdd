@@ -1,9 +1,11 @@
 var gulp = require('gulp');
-var jasmine = require('gulp-jasmine');
+var Server = require('karma').Server;
 
-gulp.task('test', function() {
-    return gulp.src('*spec.js')
-        .pipe(jasmine());
+gulp.task('test', function(done) {
+    new Server({
+        configFile: __dirname + '/karma.conf.js',
+        singleRun: true
+    }, done).start();
 });
 
 gulp.task('default', ['test']);
