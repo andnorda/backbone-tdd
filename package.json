@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/andnorda/backbone-tdd/issues"
   },
-  "homepage": "https://github.com/andnorda/backbone-tdd"
+  "homepage": "https://github.com/andnorda/backbone-tdd",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jasmine": "^2.0.1"
+  }
 }
