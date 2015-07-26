@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/andnorda/backbone-tdd",
   "devDependencies": {
+    "backbone": "^1.2.1",
     "gulp": "^3.9.0",
     "gulp-jasmine": "^2.0.1"
   }
